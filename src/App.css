@@ -1,0 +1,131 @@
+.scroll-button {
+
+    animation: bounce 2s linear infinite;
+}
+
+.border_style {
+    /* 
+    background: repeating-linear-gradient(to right, rgb(211, 211, 211) 0,
+            rgba(211, 211, 211, 0.5) 1px, rgba(255, 255, 255, 0) 1px,
+            rgba(255, 255, 255, 0) 1px);
+    height: 1px; */
+    border: 1px dashed rgb(211, 211, 211);
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mySwiper1 .swiper-button-prev {
+    color: #6c757d;
+
+}
+
+
+.mySwiper1 .swiper-button-next {
+    color: #6c757d;
+
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #3d464d;
+
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-weight: bolder;
+    font-size: 32px !important;
+}
+
+/* React Tabs */
+
+.react-tabs__tab--selected {
+    background-color: #F5F5F5 !important;
+    border-radius: 0 !important;
+    border-color: #d5d2d2 !important;
+}
+
+.react-tabs__tab {
+    padding: 10px 15px !important;
+}
+
+.react-tabs__tab-list {
+    border-bottom: 1px solid #dedfdf !important;
+}
+
+
+button[disabled] {
+    /* border: 1px solid #999999; */
+    background-color: #cccccc;
+    color: #666666;
+}
+
+button[disabled]:hover {
+    background-color: #cccccc;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@keyframes pulse-purple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(142, 68, 173, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(142, 68, 173, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
+    }
+}
+
+.notification-pulse .MuiBadge-dot {
+    animation: pulse-purple 2s infinite !important;
+}
+
+.customHeight {
+    height: calc(100vh - 70px);
+}
+
+
+/* Custom styling for scroll bar */
+.customScroll ::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.customScroll ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+
+}
+
+/* Handle */
+.customScroll ::-webkit-scrollbar-thumb {
+    background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+.customScroll ::-webkit-scrollbar-thumb:hover {
+    background: #FFD333;
+}

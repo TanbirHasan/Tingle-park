@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"categoryName": "Fashion",
+		"categoryPicture": "https://i.ibb.co/PNyyrwy/cat-1.jpg"
+	},
+	{
+		"id": 2,
+		"categoryName": "Electronics",
+		"categoryPicture": "https://i.ibb.co/ScK6nqd/cat-2.jpg"
+	},
+	{
+		"id": 3,
+		"categoryName": "Home Decor",
+		"categoryPicture": "https://i.ibb.co/88xhtwP/cat-3.jpg"
+	},
+	{
+		"id": 4,
+		"categoryName": "Cosmetics",
+		"categoryPicture": "https://i.ibb.co/9yjJLsz/cat-4.jpg"
+	}
+]
