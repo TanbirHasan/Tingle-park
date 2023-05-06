@@ -6,6 +6,7 @@ const setAuthToken = (user) => {
 		email: user?.email,
 		role: user?.role,
 	};
+	
 
 	fetch(`${baseUrl}/users/${user?.email}`, {
 		method: 'PUT',
